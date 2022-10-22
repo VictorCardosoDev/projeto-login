@@ -33,16 +33,6 @@ section#login {
     animation-timing-function: ease;
 }
 
-section#login h1 {
-    text-align: center;
-    margin: 10px;
-}
-
-section#login p {
-    text-align: justify;
-    margin: 10px 0px;
-}
-
 section#login div#img {
     display: block;
     background: black url(../imagens/predio.jpg) no-repeat center center;
@@ -55,16 +45,21 @@ section#login div#form {
     padding: 10px;
 }
 
+div#form h1 {
+    text-align: center;
+    margin: 10px;
+}
+
+div#form p {
+    text-align: justify;
+    margin: 10px 0px;
+    font-size: 0.9em;
+}
+
 form {
     background-color: rgb(255, 0, 0);
     display: inline-block;
     padding: 5px;
-}
-
-form p {
-    background-color: blue;
-    padding: 5px;
-    border-radius: 5px;
 }
 
 input {
@@ -73,7 +68,7 @@ input {
     border-radius: 5px;
 }
 
-button {
+input#entrar {
     display: block;
     width: 402px;
     background-color: rgb(0, 132, 255);
@@ -82,7 +77,7 @@ button {
     margin: 10px 0px;
 }
 
-button:hover {
+input#entrar:hover {
     background-color: blue;
     cursor: pointer;
 }
