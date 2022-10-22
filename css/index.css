@@ -29,6 +29,8 @@ section#login {
     border-radius: 15px;
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.438);
+    transition: width .3s, height .3s;
+    animation-timing-function: ease;
 }
 
 section#login h1 {
@@ -43,7 +45,7 @@ section#login p {
 
 section#login div#img {
     display: block;
-    background: black url(../imagens/predio.jpg) no-repeat bottom center;
+    background: black url(../imagens/predio.jpg) no-repeat center center;
     background-size: cover;
     height: 200px;
 }
